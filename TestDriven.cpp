@@ -24,7 +24,7 @@ int main(){
                     std::cout << "hello " << i << std::endl;
                     std::this_thread::sleep_for(std::chrono::seconds(1));
                     std::cout << "world " << i << std::endl;
-                    return std::string("---thread ") + std::to_string(i) + std::string(" finished---");
+                    return std::string("---thread ") + std::to_string(i) + std::string(" finished---\n");
                     }
                     )
                 );
